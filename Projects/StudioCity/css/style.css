@@ -1,0 +1,173 @@
+/* Fonts */
+/* color scheme */
+/* line 3, ../scss/style.scss */
+body {
+  background: #fff;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 1.4em;
+  margin: 0;
+  padding: 0;
+  color: #333; }
+
+/* line 13, ../scss/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Tahoma; }
+
+/* line 17, ../scss/style.scss */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: auto; }
+
+/* line 23, ../scss/style.scss */
+header {
+  background: #000000;
+  color: #ffffff;
+  height: 60px; }
+
+/* line 29, ../scss/style.scss */
+#logo {
+  float: left; }
+
+/* line 33, ../scss/style.scss */
+nav {
+  float: right; }
+  /* line 36, ../scss/style.scss */
+  nav ul {
+    padding-top: 4px; }
+    /* line 38, ../scss/style.scss */
+    nav ul li {
+      list-style: none;
+      float: left;
+      padding-right: 20px; }
+      /* line 42, ../scss/style.scss */
+      nav ul li a {
+        color: #ffffff;
+        text-decoration: none; }
+      /* line 47, ../scss/style.scss */
+      nav ul li a:hover, nav ul li a.active {
+        color: #777689; }
+
+/* line 54, ../scss/style.scss */
+.showcase {
+  height: 400px; }
+  /* line 57, ../scss/style.scss */
+  .showcase .container {
+    height: 500px;
+    overflow: auto; }
+  /* line 62, ../scss/style.scss */
+  .showcase h1 {
+    background: #000000;
+    padding: 20px;
+    opacity: 0.7; }
+
+/* line 69, ../scss/style.scss */
+.showcase-inner {
+  height: 150px; }
+
+/* line 73, ../scss/style.scss */
+.showcase, .showcase-inner {
+  background: url("../img/city.jpg") no-repeat 0 -400px;
+  color: #ffffff;
+  font-size: 21px;
+  line-height: 1.7em; }
+  /* line 79, ../scss/style.scss */
+  .showcase h1, .showcase-inner h1 {
+    background: #000000;
+    padding: 20px;
+    opacity: 0.7; }
+
+/* line 86, ../scss/style.scss */
+.button, .button-a, .button-b {
+  padding: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  border: none; }
+
+/* line 93, ../scss/style.scss */
+.button-a {
+  background: #1c1b3a; }
+
+/* line 98, ../scss/style.scss */
+.button-b {
+  background: #000000; }
+
+/* line 103, ../scss/style.scss */
+.button-a:hover {
+  background: #33324e; }
+
+/* line 107, ../scss/style.scss */
+.button-b:hover {
+  background: #1a1a1a; }
+
+/* line 111, ../scss/style.scss */
+.section-a {
+  background: #1c1b3a;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-size: 22px; }
+
+/* line 119, ../scss/style.scss */
+.section-b {
+  padding: 20px 0; }
+
+/* line 123, ../scss/style.scss */
+.box {
+  width: 24%;
+  float: left;
+  text-align: center; }
+
+/* line 129, ../scss/style.scss */
+.fa {
+  font-size: 60px;
+  color: #1c1b3a; }
+
+/* line 134, ../scss/style.scss */
+.home-list {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+  /* line 138, ../scss/style.scss */
+  .home-list li {
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px; }
+
+/* line 145, ../scss/style.scss */
+footer {
+  padding: 30px 0;
+  margin-top: 30px;
+  background: #000000;
+  color: #ffffff; }
+
+/* line 152, ../scss/style.scss */
+.port {
+  width: 24%;
+  float: left;
+  padding-right: 10px;
+  text-align: center; }
+  /* line 158, ../scss/style.scss */
+  .port img {
+    width: 100%; }
+
+/* line 163, ../scss/style.scss */
+form#contact div {
+  background: #f4f4f4;
+  padding: 15px;
+  margin-bottom: 5px; }
+  /* line 168, ../scss/style.scss */
+  form#contact div input[type='text'] {
+    width: 100%;
+    height: 30px;
+    border: #ccc solid 1px;
+    padding: 4px; }
+  /* line 175, ../scss/style.scss */
+  form#contact div textarea {
+    width: 100%;
+    height: 70px;
+    border: #ccc solid 1px;
+    padding: 4px; }
+
+/*# sourceMappingURL=style.css.map */
